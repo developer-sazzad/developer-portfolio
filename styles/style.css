@@ -91,3 +91,9 @@ nav li{
     font-weight: 500;
 
 }
+
+/* about section design */
+.about-section{
+    width: 1140px;
+    height: 550px;
+}
