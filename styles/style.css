@@ -109,12 +109,14 @@ main{
     font-size: 45px;
     font-weight: 700;
     color: #181818;
+    text-align: center;
 
 }
 .section-description{
     font-size: 20px;
     padding: 30px 0;
     color: #757575;
+    text-align: center;
 }
 
 /* about-info */
@@ -132,4 +134,31 @@ main{
     color: #474747;
     font-weight: 600;
     font-size: 20px;
+}
+
+
+/* my service */
+.services{
+    margin-top: 130px;
+}
+.service-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    background: #FFFFFF;
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
 }
