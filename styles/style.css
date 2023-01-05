@@ -3,7 +3,8 @@
 
 /* Colors */
 * {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -15,7 +16,11 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 40px 100px 0 170px;
+    padding: 50px 170px;
+}
+header{
+    background-color: #FFF8F3;
+
 }
 nav ul{
     display: flex;
