@@ -98,8 +98,10 @@ main{
     margin: 0 auto;
 
 }
-.about-section{
+section{
     margin-top: 130px;
+}
+.about-section{
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -138,9 +140,6 @@ main{
 
 
 /* my service */
-.services{
-    margin-top: 130px;
-}
 .service-container{
     display: flex;
     gap: 24px;
@@ -161,4 +160,96 @@ main{
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+
+/* Resume Styles */
+.resume-content{
+    display: flex;
+    gap: 30px;
+}
+.resume-title{
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 50px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-item .title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-item .sub-title{
+    font-weight: 500;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+.resume-item .description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Contact Section */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 220px;
+    justify-content: center;
+}
+.contact-social a{
+    
+    margin-right: 20px;
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.contact-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+input{
+    height: 50px;
+}
+.contact-form input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    border: 0;
+    padding: 10px 15px;
+    
+}
+.contact-form .submit-btn{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* Copyright Footer */
+.copy-right{
+    text-align: center;
+    padding: 65px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000;
+    background-color: #FD6E0A;
 }
