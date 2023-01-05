@@ -93,7 +93,43 @@ nav li{
 }
 
 /* about section design */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
 .about-section{
-    width: 1140px;
-    height: 550px;
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.section-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #181818;
+
+}
+.section-description{
+    font-size: 20px;
+    padding: 30px 0;
+    color: #757575;
+}
+
+/* about-info */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.info-title{
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.info-description{
+    color: #474747;
+    font-weight: 600;
+    font-size: 20px;
 }
